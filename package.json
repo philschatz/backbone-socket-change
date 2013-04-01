@@ -1,0 +1,42 @@
+{
+  "name": "backbone-socket-change",
+  "version": "0.0.1",
+  "description": "Send Backbone change events to the webserver via websockets (think realtime collaborative editing)",
+  "main": "bin/server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "mkdir -p ./lib && cd ./lib && bash ../install-libs.sh && cd ../"
+  },
+  "dependencies": {
+    "socket.io": "*",
+    "coffee-script": "~1.2",
+    "express": "~2.5",
+
+    "jquery-deferred": ">=0.3.0",
+    "najax": ">=0.1.05",
+
+    "underscore": ">=1.4.3",
+    "backbone": ">=0.9.9",
+    "github-js": "*"
+  },
+  "devDependencies": {
+    "docco": "~0.4.0",
+    "mockjaxify": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philschatz/backbone-socket-change.git"
+  },
+  "keywords": [
+    "backbone",
+    "socket",
+    "change",
+    "realtime",
+    "collaborative",
+    "editing"
+  ],
+  "author": "Philip Schatz"
+}
